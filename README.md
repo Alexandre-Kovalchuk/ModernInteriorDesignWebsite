@@ -1,6 +1,6 @@
 # Modern Interior Design Website
 
-<img src="./img/Main.jpg" height="600" alt="Preview">  
+<img src="./img/Main.jpg" height="600" width="600" alt="Preview">  
 A modern and stylish website for an interior design studio, built using **Gulp**, **SCSS**, and the **BEM** methodology.
 
 ## 🚀 Technologies Used
