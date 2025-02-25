@@ -4,7 +4,7 @@
 A modern and stylish website for an interior design studio, built using **Gulp**, **SCSS**, and the **BEM** methodology.
 
 ## 🚀 Technologies Used
-- **Gulp** - Task runner for automating development workflows.
+- **Gulp** (used during development) - Task runner for automating workflows.
 - **SCSS** - Preprocessor for enhanced and modular styles.
 - **BEM (Block Element Modifier)** - Naming convention for scalable and maintainable CSS.
 - **JavaScript** - For interactive elements.
@@ -12,45 +12,33 @@ A modern and stylish website for an interior design studio, built using **Gulp**
 
 ## 📂 Project Structure
 ```
-├── src/
-│   ├── html/        # HTML files
-│   ├── scss/        # Styles written in SCSS using BEM methodology
-│   ├── js/          # JavaScript files
-│   ├── images/      # Images and assets
-│   └── fonts/       # Custom fonts
-├── dist/            # Compiled files for production
-├── gulpfile.js      # Gulp configuration
-├── package.json     # Project dependencies
-└── README.md        # Project documentation
+├── css/            # Compiled CSS files
+├── fonts/          # Custom fonts
+├── img/            # Images and assets
+├── js/             # JavaScript files
+├── .htaccess       # Server configuration
+├── 404.html        # Error page
+├── about.html      # About page
+├── contact.html    # Contact page
+├── index.html      # Homepage
+├── news.html       # News listing page
+├── oneNews.html    # Single news page
+├── oneProject.html # Single project page
+├── project.html    # Projects listing page
+├── README.md       # Project documentation
 ```
 
-## 🔧 Installation & Usage
-1. **Clone the repository:**
-   ```sh
-   git clone https://github.com/yourusername/project-name.git
-   cd project-name
-   ```
-2. **Install dependencies:**
-   ```sh
-   npm install
-   ```
-3. **Run the development server:**
-   ```sh
-   gulp
-   ```
-4. **Build for production:**
-   ```sh
-   gulp build
-   ```
+## 🔧 Development Setup
+This repository contains the **final production build**. Gulp was used only during development, and all necessary files are already compiled in the `dist` folder.
 
 ## 🌟 Features
 - Responsive and adaptive layout
 - Modular SCSS structure
-- Automated build process with Gulp
+- Automated build process with Gulp (during development)
 - Clean and modern UI/UX
 
 ## 📸 Preview
-Add a screenshot or link to a live demo here.
+[Live Demo on GitHub Pages](https://alexandre-kovalchuk.github.io/ModernInteriorDesignWebsite/)
 
 ## 📌 License
 This project is open-source and available under the [MIT License](LICENSE).
